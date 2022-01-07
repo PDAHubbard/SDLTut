@@ -9,7 +9,7 @@ CC = g++
 
 #COMPILER FLAGS are the compiler flags
 #-w suppresses all warnings
-COMPILER_FLAGS = -w
+COMPILER_FLAGS = -Wall -Wextra -pedantic
 
 #LINKER_FLAGS specifies the libraries to link/load
 LINKER_FLAGS = -lSDL2 -lSDL2_image
