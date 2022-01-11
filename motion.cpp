@@ -552,8 +552,14 @@ void close()
 	SDL_Quit();
 }
 
-int main( int argc, char* args[] )
+int main( int argc, char* argv[] )
 {
+  if( argc == 3 ) {
+    GRAVITY = atof( argv[ 1 ] );
+    FRICTION = atof( argv[ 2 ] );
+  }
+
+
 	//Start up SDL and create window
 	if( !init() )
 	{

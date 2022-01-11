@@ -1,8 +1,8 @@
 #OBJS specs which files to compile as part of the project
-OBJS = 01_hello_SDL.cpp
+OBJS = motion.cpp
 
 #OBJ_NAME is the name of the executable
-OBJ_NAME = 01_hello_SDL
+OBJ_NAME = motion
 
 #CC is the name of the compiler
 CC = g++
